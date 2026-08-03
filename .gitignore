@@ -1,0 +1,46 @@
+# Ignore junk and trash
+.Trash-0/
+.ipynb_checkpoints/
+*.trashinfo
+
+# Ignore heavy dataset/model binary files
+*.pt
+*.pth
+*.tar.xz
+*.bin
+*.safetensors
+
+# Ignore dataset images and raw data
+*.jpg
+*.jpeg
+*.png
+*.bmp*
+*.tiff
+*.avi
+
+blender*/
+*.tar.xz
+*.tar.gz
+
+# Ignore training artifacts, logs, and checkpoint folders
+*_new/
+*_constrained/
+*.tfevents.*
+*.pkl
+*.bin
+*.safetensors
+logs/
+
+# Ignore generated 3D meshes
+crystal_meshes/
+riboflavin_meshes/
+
+# Ignore media outputs and datasets
+FNO_Outputs/
+*.mp4
+*_ready/
+work_space_*/
+Data/
+
+# Ignore large generated dashboards (if not source code)
+*.html
